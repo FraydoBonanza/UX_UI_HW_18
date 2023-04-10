@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.4;
+  background-color: #333;
+}
+
+#header {
+  margin-bottom: 15px;
+  background: #f4f4f4;
+  color: #fff;
+  padding: 10px;
+}
+
+#main {
+  background-color: #f4f4f4;
+  float: left;
+  width: 66%;
+
+}
+
+.welcome { color:black;
+  background-image: url(/img/Ocean\ Photo.jpeg);
+background-size: 100%;
+background-repeat:inherit;
+background-position: center center;
+padding: 20px;
+}
+
+.mywork {border: 2px red solid;
+}
+
+#sidebar {
+  float: right;
+  width: 29%;
+}
+
+.clr {
+  clear: both;
+}
+
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  color: rgb(246, 232, 232);
+  padding: 10px;
+}
+
+#footer ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+#footer li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  background: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 10px;
+}
